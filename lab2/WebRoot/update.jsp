@@ -26,6 +26,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body>
     <%String title = request.getParameter("booktitle");%>
     <h1><%=title %></h1>
+    <h3>new information as follow:<h3>
      <form action = "Action_update" method = "post">
      <table>
      	<tr>

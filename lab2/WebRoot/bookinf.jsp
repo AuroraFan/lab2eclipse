@@ -30,7 +30,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     String booktitle;
      %><%booktitle = Bookinf.Title; %>
      <a href = "update.jsp?booktitle=<%=booktitle%>"><%=booktitle%></a>
-     
+    <h5>here comes the information:<h5> 
 	<table>
 		<tr>
 			<th>Pulisher</th><td><%=Bookinf.Publisher %></td>

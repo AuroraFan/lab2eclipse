@@ -24,7 +24,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
   <body>
     
-     <h1>successfully deleted!</h1>
+     <h1>This book has been successfully deleted!</h1>
      <a href = "index.jsp">back to front page</a>
   </body>
 </html>
